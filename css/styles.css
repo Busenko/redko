@@ -680,6 +680,7 @@ width: 35px;
 }
 	.ticket-button{
 		pading: 10px;
+		min-height: 60px;
 	}
        
 }
