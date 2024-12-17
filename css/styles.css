@@ -653,6 +653,11 @@ width: 35px;
         .content__block:first-child {
             order: 2; 
         }
+
+	.ticket-button span{
+
+		display:none;
+	}
        
 }
 @media (max-width: 910px) {
