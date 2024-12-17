@@ -527,27 +527,32 @@ align-items: center;
     padding: 0;
   }
   
-.ticket-button {
-  all: unset; 
-  display: block;
-  width: 100%;
-  height: 100%;
-  background-color: #EAA028;
-  color: #fff; 
-  font-size: 18px;
-  font-weight: 800;
-  text-align: center;
-  cursor: pointer;
-  transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease;
-}
+ .ticket-button {
+      all: unset; 
+      display: block;
+      width: 100%;
+      height: 100%;
+      background-color: #EAA028;
+      color: #fff; 
+      font-size: 18px;
+      font-weight: 800;
+      text-align: center;
+      cursor: pointer;
+      transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease;
+      position: relative; /* Для позиціонування тексту */
+      overflow: hidden; /* Запобігає виходу за межі */
+    }
 
-.ticket-button:hover {
-	  font-size: 16px;
-  background-color: #d88f20; 
-  color: #f0f0f0; 
-  transform: scale(1.02);
-}
+    .ticket-button span {
+      position: relative; /* Текст може зміщуватися */
+      display: inline-block;
+      transition: transform 0.2s ease; /* Плавний рух */
+    }
 
+    .ticket-button:hover {
+      background-color: #d88f20; 
+      color: #f0f0f0; 
+    }
 
 
 
