@@ -678,6 +678,9 @@ width: 35px;
  
     width: 100%;
 }
+	.ticket-button{
+		pading: 10px;
+	}
        
 }
 @media (max-width: 910px) {
@@ -710,7 +713,7 @@ width: 35px;
       
         padding: 5px 8px;
     text-align: center;
-        font-size: 12px;
+        font-size: 14px;
     }
     .ticket-button {
        
