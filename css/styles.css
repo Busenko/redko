@@ -353,7 +353,7 @@ header:before {
     width: 100%;
     
     padding-bottom: 20px;
-    padding-top: var(--header-height);
+    padding-top: 80px;
     background-color: #FFF5E9;
 }
 
