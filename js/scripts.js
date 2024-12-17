@@ -55,20 +55,20 @@ $(document).ready(function () {
 
 
     // Функція для оновлення висоти футера та хедера в CSS...................................................................................................................
-    function updateFooterAndHeaderHeight() {
-        const footer = document.querySelector('footer');
-        const header = document.querySelector('header');
+    // function updateFooterAndHeaderHeight() {
+    //     const footer = document.querySelector('footer');
+    //     const header = document.querySelector('header');
 
-        if (footer && header) {
-            const footerHeight = footer.offsetHeight;
-            const headerHeight = header.offsetHeight;
-            document.documentElement.style.setProperty('--footer-height', `${footerHeight}px`);
-            document.documentElement.style.setProperty('--header-height', `${headerHeight}px`);
-        }
-    }
+    //     if (footer && header) {
+    //         const footerHeight = footer.offsetHeight;
+    //         const headerHeight = header.offsetHeight;
+    //         document.documentElement.style.setProperty('--footer-height', `${footerHeight}px`);
+    //         document.documentElement.style.setProperty('--header-height', `${headerHeight}px`);
+    //     }
+    // }
 
-    window.addEventListener('load', updateFooterAndHeaderHeight);
-    window.addEventListener('resize', updateFooterAndHeaderHeight);
+    // window.addEventListener('load', updateFooterAndHeaderHeight);
+    // window.addEventListener('resize', updateFooterAndHeaderHeight);
 // робота з відкриваючими блоками...................................................................................................................
     function itemsControl() {
         const coll = document.getElementsByClassName('content__item');
