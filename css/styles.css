@@ -903,15 +903,6 @@ footer {
 
 /*Контент сторінки////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
 
-#content {
-    opacity: 0;
-    /* transform: translateX(50px); */
-    transition: opacity 0.8s ease, transform 1s ease;
-  }
-  #content.show {
-    opacity: 1;
-    /* transform: translateY(0); */
-  }
 
 
 
