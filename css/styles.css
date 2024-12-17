@@ -679,11 +679,11 @@ width: 35px;
     width: 100%;
 }
 	.button-container {
-min-height: 60px;
+min-height: 40px;
   }
 	.ticket-button{
 		pading: 10px;
-		min-height: 60px;
+		min-height: 40px;
 	}
        
 }
