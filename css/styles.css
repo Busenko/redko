@@ -539,14 +539,14 @@ align-items: center;
       text-align: center;
       cursor: pointer;
       transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease;
-      position: relative; /* Для позиціонування тексту */
-      overflow: hidden; /* Запобігає виходу за межі */
+      position: relative; 
+      overflow: hidden; 
     }
 
     .ticket-button span {
-      position: relative; /* Текст може зміщуватися */
+      position: relative; 
       display: inline-block;
-      transition: transform 0.2s ease; /* Плавний рух */
+      transition: transform 0.2s ease; 
     }
 
     .ticket-button:hover {
