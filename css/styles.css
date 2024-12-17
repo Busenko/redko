@@ -852,9 +852,9 @@ footer {
 
 .footer-image {
     position: absolute; 
-    bottom: 10px; 
-    right: 10px; 
-    width: 140px; 
+    bottom: 20px; 
+    right: 5px; 
+    width: 130px; 
     height: auto;
 }
 
