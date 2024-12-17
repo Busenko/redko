@@ -661,7 +661,23 @@ width: 35px;
             order: 2; 
         }
 
-	
+	.ticket-column1 {
+
+    width: 100%;
+  
+}
+
+.ticket-column2 {
+   
+    width: 100%;
+
+}
+	.ticket-container {
+    display: flex; 
+		   flex-direction: column;
+ 
+    width: 100%;
+}
        
 }
 @media (max-width: 910px) {
