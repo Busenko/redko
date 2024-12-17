@@ -106,5 +106,24 @@ $(document).ready(function () {
     
     itemsControl();
     
+/////////////////////////////////////
+  
+    const button = document.querySelector('.ticket-button');
+    const text = button.querySelector('span');
+
+    button.addEventListener('mousemove', (e) => {
+      const rect = button.getBoundingClientRect();
+      const x = e.clientX - rect.left; // Позиція миші по X
+      const y = e.clientY - rect.top;  // Позиція миші по Y
+      const moveX = (x - rect.width / 2) / 10;  // Відносне зміщення по X
+      const moveY = (y - rect.height / 2) / 10; // Відносне зміщення по Y
+      
+      text.style.transform = `translate(${moveX}px, ${moveY}px)`; // Рух тексту
+    });
+
+    button.addEventListener('mouseleave', () => {
+      text.style.transform = `translate(0px, 0px)`; // Повернення на місце
+    });
+
 
 });
