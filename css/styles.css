@@ -678,6 +678,9 @@ width: 35px;
  
     width: 100%;
 }
+	.button-container {
+min-height: 60px;
+  }
 	.ticket-button{
 		pading: 10px;
 		min-height: 60px;
