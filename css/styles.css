@@ -690,17 +690,17 @@ width: 35px;
         width:24px;
        
       }
-    .ticket-column1 {
-       
-        width: 70%;
-      
-    }
-    
-    .ticket-column2 {
-      
-        width: 30%;
-      
-    }
+   	.ticket-column1 {
+
+    width: 100%;
+  
+}
+
+.ticket-column2 {
+   
+    width: 100%;
+
+}
     .ticket-row img{
 
         width:25px;
