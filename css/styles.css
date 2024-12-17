@@ -677,8 +677,8 @@ width: 35px;
     .ticket-row {
       
         padding: 5px 8px;
-    
-        font-size: 14px;
+    text-align: center;
+        font-size: 12px;
     }
     .ticket-button {
        
