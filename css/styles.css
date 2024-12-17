@@ -550,6 +550,7 @@ align-items: center;
     }
 
     .ticket-button:hover {
+	    font-size: 17px;
       background-color: #d88f20; 
       color: #f0f0f0; 
     }
